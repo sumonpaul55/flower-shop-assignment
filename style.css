@@ -176,3 +176,35 @@ header .img-box {
 .insta-img-box img {
   width: 100%;
 }
+/* ========================================= latest-deal-section============================================ */
+.latest-deal-section {
+  padding: 100px 0;
+}
+.latest-deal-bg {
+  background: url("Flower Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+}
+.latest-deal-content {
+  text-align: center;
+}
+.latest-deal-content p {
+  margin: 16px 0;
+}
+form .btn-primary {
+  padding: 18px 30px;
+}
+.subscribe {
+  width: 60%;
+  display: flex;
+  margin-top: 40px;
+  gap: 15px;
+}
+.subscribe .email-bolx {
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  outline: 0;
+}
