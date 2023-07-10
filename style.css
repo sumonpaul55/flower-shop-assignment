@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Peddana", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* ---------------------------- shared style -------------------------*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.col-2 {
+  width: 50%;
+  padding: 10px;
+}
+.col-4 {
+  width: 25%;
+  padding: 10px;
+}
+.col-3 {
+  width: 33.33%;
+  padding: 10px;
+}
+/* 
+ul {
+  list-style: none;
+} */
+.text-primary {
+  color: #e55473;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  cursor: pointer;
+  padding: 20px 40px;
+}
+.paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.imgs {
+  max-width: 100%;
+  height: auto;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.bg-blue {
+  background: blue;
+}
+/* --------------------------------------header style here --------------------------------- */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  height: 85vh;
+}
+
+header .hero-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+header .paregraph {
+  margin: 32px 0;
+}
+header .img-box {
+  justify-content: end;
+}
+/* ----------------------------------- featured section ------------------------------------------ */
+.featured-section {
+  padding: 100px 0;
+}
+
+.featured-row {
+  gap: 10px;
+}
+.section-top {
+  margin: auto;
+  padding: 0 80px;
+}
+.section-top .paragraph {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.featured-box {
+  margin: auto;
+}
+.featured-img {
+  align-items: end;
+  background-color: red;
+  padding: 120px 0 0;
+  border-radius: 300px 300px 0px 0px;
+  height: 550px;
+  margin-bottom: 32px;
+}
+.first-featured {
+  background: rgba(167, 33, 98, 0.15);
+}
+.second-featured {
+  background: rgba(5, 151, 160, 0.15);
+}
+.third-featured {
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-content-main .tree-link a {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  display: block;
+}
+/* ----------------------------------------- hot deals css here ------------------------------- */
+.hot-deal-bg {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+}
+.hot-deals h2 {
+  color: #272727;
+  font-size: 40px;
+
+  font-weight: 800;
+}
+.hot-deals-content {
+  width: 80%;
+  text-align: center;
+}
+
+.hot-deal-bg .paragraph {
+  margin: 32px 0;
+}
+/* -------------------------------------------- instagram style here -------------------------------- */
+.instagram {
+  padding: 100px 0;
+}
