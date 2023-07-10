@@ -170,9 +170,25 @@ header .img-box {
 .hot-deal-bg .paragraph {
   margin: 32px 0;
 }
-/* -------------------------------------------- instagram style here -------------------------------- */
+
 .instagram {
   padding: 100px 0;
+}
+
+.find-img-box img {
+  border-radius: 8px 8px 0 0;
+}
+.find-flower h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.find-flower h3 a {
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid palevioletred;
+  color: #e55473;
 }
 .insta-img-box img,
 .find-img-box img {
