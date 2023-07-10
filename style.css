@@ -80,6 +80,9 @@ ul {
 .ml-auto {
   margin-left: auto;
 }
+.m-auto {
+  margin: auto;
+}
 .bg-blue {
   background: blue;
 }
@@ -169,4 +172,7 @@ header .img-box {
 /* -------------------------------------------- instagram style here -------------------------------- */
 .instagram {
   padding: 100px 0;
+}
+.insta-img-box img {
+  width: 100%;
 }
