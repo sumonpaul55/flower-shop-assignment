@@ -66,6 +66,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  margin: 32px 0;
 }
 .imgs {
   max-width: 100%;
@@ -150,7 +151,7 @@ header .img-box {
   display: block;
 }
 /* ----------------------------------------- hot deals css here ------------------------------- */
-.hot-deal-bg {
+.hot-deals {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   padding: 100px 0;
@@ -173,7 +174,8 @@ header .img-box {
 .instagram {
   padding: 100px 0;
 }
-.insta-img-box img {
+.insta-img-box img,
+.find-img-box img {
   width: 100%;
 }
 /* ========================================= latest-deal-section============================================ */
@@ -207,4 +209,34 @@ form .btn-primary {
   padding: 10px 20px;
   border-radius: 8px;
   outline: 0;
+}
+/*  ------------------------------------ unique section --------------------------  */
+.my-unique-section {
+  padding: 50px 0;
+}
+.find-img-box {
+  box-shadow: 0 0 10px rgb(230, 230, 230);
+}
+.my-unique-section .find-img-box {
+  box-shadow: none;
+}
+/* =================================== footer ---------------------------------------------- */
+footer {
+  padding: 100px 0;
+  background-color: #111010;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-content,
+.footer-content .paragraph {
+  color: white;
+}
+.footer-content {
+  text-align: center;
+}
+footer .copyright {
+  color: rgba(255, 255, 255, 0.4) !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
